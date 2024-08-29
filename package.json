@@ -22,10 +22,12 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "ci": "npm run build",
-    "format": "prettier --write ."
+    "ci": "npm run build && npm run check-format",
+    "format": "prettier --write .",
+    "check-format": "prettier --check ."
   },
   "devDependencies": {
+    "@arethetypeswrong/cli": "^0.15.4",
     "prettier": "^3.3.3",
     "typescript": "^5.5.4"
   }
