@@ -1,5 +1,1 @@
-import { add } from './utils/index.js';
-
-export default {
-  add: add,
-};
+export { add } from './utils/index.js';
