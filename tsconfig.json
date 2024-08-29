@@ -30,5 +30,5 @@
     "lib": ["es2022"],
     "noEmit": true
   },
-  "exclude": ["tsup.config.ts"],
+  "exclude": ["tsup.config.ts"]
 }
