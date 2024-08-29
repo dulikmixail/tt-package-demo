@@ -1,4 +1,4 @@
-mame: CI-mylib
+mame: CI
 
 on:
   pull_request:
